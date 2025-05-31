@@ -1,11 +1,5 @@
 import allure
-from selenium.webdriver import ActionChains
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
 
 list_of_products = (By.CSS_SELECTOR, ".item.product.product-item")
 limiter_per_page_selector = (By.CSS_SELECTOR, ".products-grid~.toolbar.toolbar-products #limiter")

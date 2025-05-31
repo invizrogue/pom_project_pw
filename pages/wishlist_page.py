@@ -1,9 +1,6 @@
 import allure
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
 
 added_to_wishlist_text = "has been added to your Wish List"
 product_in_wishlist = (By.CSS_SELECTOR, "#wishlist-sidebar .product-item")

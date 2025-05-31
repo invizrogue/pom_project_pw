@@ -1,5 +1,4 @@
 import pytest
-from selenium import webdriver
 from faker import Faker
 from pages.home_page import HomePage
 from pages.sale_page import SalePage

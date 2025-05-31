@@ -1,9 +1,6 @@
 import allure
 
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 wellcome_message = (By.CLASS_NAME, "logged-in")
 success_messages = (

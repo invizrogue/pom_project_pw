@@ -1,9 +1,6 @@
 import allure
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
 
 women_deals_link = (By.XPATH, "//span[text()='Women’s Deals']")
 cart_button = (By.CSS_SELECTOR, ".action.showcart")

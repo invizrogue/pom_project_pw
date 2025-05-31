@@ -1,7 +1,6 @@
 import allure
 
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
 
 firstname_field = (By.ID, "firstname")
 firstname_error = (By.ID, "firstname-error")
