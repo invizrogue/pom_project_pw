@@ -1,8 +1,10 @@
 import allure
+from playwright.sync_api import expect
 
 from pages.base_page import BasePage
 
-page_name = (By.TAG_NAME, "h1")
+page_name = "h1"
+page_name_text = "Women Sale"
 
 
 class PromotionsWomenSalePage(BasePage):
@@ -11,4 +13,5 @@ class PromotionsWomenSalePage(BasePage):
     @allure.step("Проверка названия страницы")
     def check_page_name(self):
         self.find(page_name)
-        assert self.find(page_name).text == "Women Sale"
+        expect(self.find(page_name)).to_have_text(page_name_text)
+        # assert self.find(page_name).inner_text() == page_name_text

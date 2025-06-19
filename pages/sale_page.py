@@ -1,11 +1,13 @@
 import allure
+from playwright.sync_api import expect
 
 from pages.base_page import BasePage
 
-women_deals_link = (By.XPATH, "//span[text()='Women’s Deals']")
-cart_button = (By.CSS_SELECTOR, ".action.showcart")
-empty_cart_message = (By.CSS_SELECTOR, ".subtitle.empty")
-home_page_link = (By.CSS_SELECTOR, "a[title='Go to Home Page']")
+women_deals_link = "//span[text()='Women’s Deals']"
+cart_button = ".action.showcart"
+empty_cart_message = ".subtitle.empty"
+empty_message_text = "You have no items in your shopping cart."
+home_page_link = "a[title='Go to Home Page']"
 
 
 class SalePage(BasePage):
@@ -21,8 +23,9 @@ class SalePage(BasePage):
 
     @allure.step("Проверка отображения сообщения о пустой корзине")
     def check_empty_cart_message_exist(self):
-        empty_message = self.find(empty_cart_message)
-        assert empty_message.text == "You have no items in your shopping cart."
+        # empty_message = self.find(empty_cart_message)
+        expect(self.find(empty_cart_message)).to_have_text(empty_message_text)
+        # assert empty_message.inner_text() == empty_message_text
 
     @allure.step("Клик по ссылке 'Home'")
     def click_home_page_link(self):

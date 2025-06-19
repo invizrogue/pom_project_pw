@@ -1,7 +1,7 @@
 import allure
 from pages.base_page import BasePage
 
-hot_sellers_title = (By.XPATH, "//h2[text()='Hot Sellers']")
+hot_sellers_title = "//h2[text()='Hot Sellers']"
 
 
 class HomePage(BasePage):
@@ -9,4 +9,4 @@ class HomePage(BasePage):
 
     @allure.step("Проверка наличия блока Hot Sellers на странице")
     def check_hot_sellers_block_exist(self):
-        self.find(hot_sellers_title).is_displayed()
+        self.find(hot_sellers_title).is_visible()

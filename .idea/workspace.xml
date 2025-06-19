@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e49c059-8b71-4cfa-9e3e-362cf04d12cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pom_project_pw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pom_project_pw.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/customer_account_create_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/customer_account_create_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/customer_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/customer_account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/eco_friendly_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/eco_friendly_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/promotions_women_sale_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promotions_women_sale_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sale_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sale_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/wishlist_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wishlist_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,25 +26,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xjYtfpCayetCbeExd7tAtaESt4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/dmikhaylov/PycharmProjects/pom_project_pw"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_customer_account_create_feature.test_should_displayed_account_info_on_successful_created_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_eco_friendly_feature.test_should_amount_cards_less_or_equal_amount_cards_selector_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_sale_feature.test_should_open_home_page_on_click_link_in_nav_menu.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dmikhaylov/OKULIK.by/pom_project_pw&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_eco_friendly_feature.test_should_amount_cards_less_or_equal_amount_cards_selector_value">
+    <configuration name="Python tests for test_customer_account_create_feature.test_should_displayed_account_info_on_successful_created_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pom_project_pw" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_customer_account_create_feature.test_should_displayed_account_info_on_successful_created_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_eco_friendly_feature.test_should_amount_cards_less_or_equal_amount_cards_selector_value" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="pom_project_pw" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_eco_friendly_feature.test_should_amount_cards_less_or_equal_amount_cards_selector_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_sale_feature.test_should_open_home_page_on_click_link_in_nav_menu" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pom_project_pw" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_sale_feature.test_should_open_home_page_on_click_link_in_nav_menu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for test_customer_account_create_feature.test_should_displayed_account_info_on_successful_created_account" />
+      <item itemvalue="Python tests.Python tests for test_eco_friendly_feature.test_should_amount_cards_less_or_equal_amount_cards_selector_value" />
+      <item itemvalue="Python tests.Python tests for test_sale_feature.test_should_open_home_page_on_click_link_in_nav_menu" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_customer_account_create_feature.test_should_displayed_account_info_on_successful_created_account" />
+        <item itemvalue="Python tests.Python tests for test_sale_feature.test_should_open_home_page_on_click_link_in_nav_menu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
